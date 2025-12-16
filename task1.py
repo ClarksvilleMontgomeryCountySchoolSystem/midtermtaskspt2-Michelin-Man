@@ -15,8 +15,8 @@ print(output("Total candy collected:"))
 people = 3
 share = total_candy//people
 leftover = total_candy % people
-print(output(f"each person gets: {share}"))
-print(output(f"Leftover candy: {leftover}"))
+print(output(f"each person gets: "))
+print(output(f"Leftover candy: "))
 
 
 # Part 3: Include the sick friend
@@ -24,5 +24,5 @@ print(output(f"Leftover candy: {leftover}"))
 people = 4
 share = total_people//poeople
 leftover = total_candy % people
-print(output(f"each person gets: {share}"))
-print(output(f"Leftover candy: {leftover}"))
+print(output(f"each person gets: "))
+print(output(f"Leftover candy: "))
