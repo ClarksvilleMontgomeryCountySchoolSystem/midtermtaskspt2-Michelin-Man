@@ -8,21 +8,21 @@ bagC = 19
 
 # Part 1: Combine the haul
 total_candy = bagA + bagB + bagC
-print(output("Total candy collected:"))
+print(f"Total candy collected: {total_candy}")
 
 
 # Part 2: Fair sharing (include yourself)
-people = 3
+people += 1
 share = total_candy//people
 leftover = total_candy % people
-print(output(f"each person gets: "))
-print(output(f"Leftover candy: "))
+print(f"Each person gets: {share}")
+print(f"Leftover candy: {leftover}")
 
 
 # Part 3: Include the sick friend
 # Variable reassignment is fine - previous values were already printed
-people = 4
-share = total_people//poeople
+people += 1
+share = total_candy//people
 leftover = total_candy % people
-print(output(f"each person gets: "))
-print(output(f"Leftover candy: "))
+print(f"Each person gets: {share}")
+print(f"Leftover candy: {leftover}")
