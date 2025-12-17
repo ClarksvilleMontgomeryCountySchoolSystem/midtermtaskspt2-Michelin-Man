@@ -27,7 +27,7 @@ if has_ticket:
 
 # Snippet 5:
 def snippet_5():
-    age = input("Enter your age: ")
+    age = int(input("Enter your age: "))
     next_year = age + 1
     print(f"Next year you'll be {next_year}")
 
