@@ -22,7 +22,7 @@ Crystal Ball..................$39.99
     # (Don't worry - the shopkeeper checks every order himself)
     name = input()
     item = float(input())
-    quantity = int(input())
+    quantity = int(input()) * 3
 
     # TODO: Calculate subtotal, tax, and total
     subtotal = item * quantity
